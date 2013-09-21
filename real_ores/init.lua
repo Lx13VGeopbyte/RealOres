@@ -1,31 +1,31 @@
-minetest.register_node ("RealOres:columbite_ore", {
+minetest.register_node ("real_ores:columbite_ore", {
 	description = "Columbite Ore",
-	tiles = {"RealOres_columbite_ore.png"},
+	tiles = {"real_ores_columbite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:columbite_lump'
+	drop = 'real_ores:columbite_lump'
 })
 
 
-minetest.register_craftitem("RealOres:columbite_lump", {
+minetest.register_craftitem("real_ores:columbite_lump", {
 	description = "Columbite Lump",
-	inventory_image = "RealOres_columbite_lump.png",
+	inventory_image = "real_ores_columbite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:columbite_lump",
-	output = "RealOres:columbite_ingot",
+	recipe = "real_ores:columbite_lump",
+	output = "real_ores:columbite_ingot",
 })
 
-minetest.register_craftitem("RealOres:columbite_ingot", {
+minetest.register_craftitem("real_ores:columbite_ingot", {
 	description = "Columbite Ingot",
-	inventory_image = "RealOres_columbite_ingot.png",
+	inventory_image = "real_ores_columbite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_columbite", {
+minetest.register_tool("real_ores:pick_columbite", {
 	description = "Columbite Pickaxe",
-	inventory_image = "RealOres_pick_columbite.png",
+	inventory_image = "real_ores_pick_columbite.png",
 	tool_capabilities = {
 		max_drop_level=1,
 		groupcaps={
@@ -35,41 +35,41 @@ minetest.register_tool("RealOres:pick_columbite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_columbite',
+	output = 'real_ores:pick_columbite',
 	recipe = {
-		{'RealOres:columbite_ingot', 'RealOres:columbite_ingot', 'RealOres:columbite_ingot'},
+		{'real_ores:columbite_ingot', 'real_ores:columbite_ingot', 'real_ores:columbite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:cerussite_ore", {
+minetest.register_node ("real_ores:cerussite_ore", {
 	description = "Cerussite Ore",
-	tiles = {"RealOres_cerussite_ore.png"},
+	tiles = {"real_ores_cerussite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:cerussite_lump'
+	drop = 'real_ores:cerussite_lump'
 })
 
-minetest.register_craftitem("RealOres:cerussite_lump", {
+minetest.register_craftitem("real_ores:cerussite_lump", {
 	description = "Cerussite Lump",
-	inventory_image = "RealOres_cerussite_lump.png",
+	inventory_image = "real_ores_cerussite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:cerussite_lump",
-	output = "RealOres:cerussite_ingot",
+	recipe = "real_ores:cerussite_lump",
+	output = "real_ores:cerussite_ingot",
 })
 
-minetest.register_craftitem("RealOres:cerussite_ingot", {
+minetest.register_craftitem("real_ores:cerussite_ingot", {
 	description = "Cerussite Ingot",
-	inventory_image = "RealOres_cerussite_ingot.png",
+	inventory_image = "real_ores_cerussite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_cerussite", {
+minetest.register_tool("real_ores:pick_cerussite", {
 	description = "Cerussite Pickaxe",
-	inventory_image = "RealOres_pick_cerussite.png",
+	inventory_image = "real_ores_pick_cerussite.png",
 	tool_capabilities = {
 		max_drop_level=0,
 		groupcaps={
@@ -79,41 +79,41 @@ minetest.register_tool("RealOres:pick_cerussite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_cerussite',
+	output = 'real_ores:pick_cerussite',
 	recipe = {
-		{'RealOres:cerussite_ingot', 'RealOres:cerussite_ingot', 'RealOres:cerussite_ingot'},
+		{'real_ores:cerussite_ingot', 'real_ores:cerussite_ingot', 'real_ores:cerussite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:rhodochrosite_ore", {
+minetest.register_node ("real_ores:rhodochrosite_ore", {
 	description = "Rhodochrosite Ore",
-	tiles = {"RealOres_rhodochrosite_ore.png"},
+	tiles = {"real_ores_rhodochrosite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:rhodochrosite_lump'
+	drop = 'real_ores:rhodochrosite_lump'
 })
 
-minetest.register_craftitem("RealOres:rhodochrosite_lump", {
+minetest.register_craftitem("real_ores:rhodochrosite_lump", {
 	description = "Rhodochrosite Lump",
-	inventory_image = "RealOres_rhodochrosite_lump.png",
+	inventory_image = "real_ores_rhodochrosite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:rhodochrosite_lump",
-	output = "RealOres:rhodochrosite_ingot",
+	recipe = "real_ores:rhodochrosite_lump",
+	output = "real_ores:rhodochrosite_ingot",
 })
 
-minetest.register_craftitem("RealOres:rhodochrosite_ingot", {
+minetest.register_craftitem("real_ores:rhodochrosite_ingot", {
 	description = "Rhodochrosite Ingot",
-	inventory_image = "RealOres_rhodochrosite_ingot.png",
+	inventory_image = "real_ores_rhodochrosite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_rhodochrosite", {
+minetest.register_tool("real_ores:pick_rhodochrosite", {
 	description = "Rhodochrosite Pickaxe",
-	inventory_image = "RealOres_pick_rhodochrosite.png",
+	inventory_image = "real_ores_pick_rhodochrosite.png",
 	tool_capabilities = {
 		max_drop_level=0,
 		groupcaps={
@@ -123,41 +123,41 @@ minetest.register_tool("RealOres:pick_rhodochrosite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_rhodochrosite',
+	output = 'real_ores:pick_rhodochrosite',
 	recipe = {
-		{'RealOres:rhodochrosite_ingot', 'RealOres:rhodochrosite_ingot', 'RealOres:rhodochrosite_ingot'},
+		{'real_ores:rhodochrosite_ingot', 'real_ores:rhodochrosite_ingot', 'real_ores:rhodochrosite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:vanadinite_ore", {
+minetest.register_node ("real_ores:vanadinite_ore", {
 	description = "Vanadinite Ore",
-	tiles = {"RealOres_vanadinite_ore.png"},
+	tiles = {"real_ores_vanadinite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:vanadinite_lump'
+	drop = 'real_ores:vanadinite_lump'
 })
 
-minetest.register_craftitem("RealOres:vanadinite_lump", {
+minetest.register_craftitem("real_ores:vanadinite_lump", {
 	description = "Vanadinite Lump",
-	inventory_image = "RealOres_vanadinite_lump.png",
+	inventory_image = "real_ores_vanadinite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:vanadinite_lump",
-	output = "RealOres:vanadinite_ingot",
+	recipe = "real_ores:vanadinite_lump",
+	output = "real_ores:vanadinite_ingot",
 })
 
-minetest.register_craftitem("RealOres:vanadinite_ingot", {
+minetest.register_craftitem("real_ores:vanadinite_ingot", {
 	description = "Vanadinite Ingot",
-	inventory_image = "RealOres_vanadinite_ingot.png",
+	inventory_image = "real_ores_vanadinite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_vanadinite", {
+minetest.register_tool("real_ores:pick_vanadinite", {
 	description = "Vanadinite Pickaxe",
-	inventory_image = "RealOres_pick_vanadinite.png",
+	inventory_image = "real_ores_pick_vanadinite.png",
 	tool_capabilities = {
 		max_drop_level=0,
 		groupcaps={
@@ -167,41 +167,41 @@ minetest.register_tool("RealOres:pick_vanadinite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_vanadinite',
+	output = 'real_ores:pick_vanadinite',
 	recipe = {
-		{'RealOres:vanadinite_ingot', 'RealOres:vanadinite_ingot', 'RealOres:vanadinite_ingot'},
+		{'real_ores:vanadinite_ingot', 'real_ores:vanadinite_ingot', 'real_ores:vanadinite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:zincite_ore", {
+minetest.register_node ("real_ores:zincite_ore", {
 	description = "Zincite Ore",
-	tiles = {"RealOres_zincite_ore.png"},
+	tiles = {"real_ores_zincite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:zincite_lump'
+	drop = 'real_ores:zincite_lump'
 })
 
-minetest.register_craftitem("RealOres:zincite_lump", {
+minetest.register_craftitem("real_ores:zincite_lump", {
 	description = "Zincite Lump",
-	inventory_image = "RealOres_zincite_lump.png",
+	inventory_image = "real_ores_zincite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:zincite_lump",
-	output = "RealOres:zincite_ingot",
+	recipe = "real_ores:zincite_lump",
+	output = "real_ores:zincite_ingot",
 })
 
-minetest.register_craftitem("RealOres:zincite_ingot", {
+minetest.register_craftitem("real_ores:zincite_ingot", {
 	description = "Zincite Ingot",
-	inventory_image = "RealOres_zincite_ingot.png",
+	inventory_image = "real_ores_zincite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_zincite", {
+minetest.register_tool("real_ores:pick_zincite", {
 	description = "Zincite Pickaxe",
-	inventory_image = "RealOres_pick_zincite.png",
+	inventory_image = "real_ores_pick_zincite.png",
 	tool_capabilities = {
 		max_drop_level=0,
 		groupcaps={
@@ -211,42 +211,42 @@ minetest.register_tool("RealOres:pick_zincite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_zincite',
+	output = 'real_ores:pick_zincite',
 	recipe = {
-		{'RealOres:zincite_ingot', 'RealOres:zincite_ingot', 'RealOres:zincite_ingot'},
+		{'real_ores:zincite_ingot', 'real_ores:zincite_ingot', 'real_ores:zincite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:amazonite_ore", {
+minetest.register_node ("real_ores:amazonite_ore", {
 	description = "Amazonite Ore",
-	tiles = {"RealOres_amazonite_ore.png"},
+	tiles = {"real_ores_amazonite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:amazonite_lump'
+	drop = 'real_ores:amazonite_lump'
 })
 
 
-minetest.register_craftitem("RealOres:amazonite_lump", {
+minetest.register_craftitem("real_ores:amazonite_lump", {
 	description = "Amazonite Lump",
-	inventory_image = "RealOres_amazonite_lump.png",
+	inventory_image = "real_ores_amazonite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:amazonite_lump",
-	output = "RealOres:amazonite_ingot",
+	recipe = "real_ores:amazonite_lump",
+	output = "real_ores:amazonite_ingot",
 })
 
-minetest.register_craftitem("RealOres:amazonite_ingot", {
+minetest.register_craftitem("real_ores:amazonite_ingot", {
 	description = "Amazonite Ingot",
-	inventory_image = "RealOres_amazonite_ingot.png",
+	inventory_image = "real_ores_amazonite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_amazonite", {
+minetest.register_tool("real_ores:pick_amazonite", {
 	description = "Amazonite Pickaxe",
-	inventory_image = "RealOres_pick_amazonite.png",
+	inventory_image = "real_ores_pick_amazonite.png",
 	tool_capabilities = {
 		max_drop_level=1,
 		groupcaps={
@@ -256,42 +256,42 @@ minetest.register_tool("RealOres:pick_amazonite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_amazonite',
+	output = 'real_ores:pick_amazonite',
 	recipe = {
-		{'RealOres:amazonite_ingot', 'RealOres:amazonite_ingot', 'RealOres:amazonite_ingot'},
+		{'real_ores:amazonite_ingot', 'real_ores:amazonite_ingot', 'real_ores:amazonite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:tsavorite_ore", {
+minetest.register_node ("real_ores:tsavorite_ore", {
 	description = "Tsavorite Ore",
-	tiles = {"RealOres_tsavorite_ore.png"},
+	tiles = {"real_ores_tsavorite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:tsavorite_lump'
+	drop = 'real_ores:tsavorite_lump'
 })
 
 
-minetest.register_craftitem("RealOres:tsavorite_lump", {
+minetest.register_craftitem("real_ores:tsavorite_lump", {
 	description = "Tsavorite Lump",
-	inventory_image = "RealOres_tsavorite_lump.png",
+	inventory_image = "real_ores_tsavorite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:tsavorite_lump",
-	output = "RealOres:tsavorite_ingot",
+	recipe = "real_ores:tsavorite_lump",
+	output = "real_ores:tsavorite_ingot",
 })
 
-minetest.register_craftitem("RealOres:tsavorite_ingot", {
+minetest.register_craftitem("real_ores:tsavorite_ingot", {
 	description = "Tsavorite Ingot",
-	inventory_image = "RealOres_tsavorite_ingot.png",
+	inventory_image = "real_ores_tsavorite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_tsavorite", {
+minetest.register_tool("real_ores:pick_tsavorite", {
 	description = "Tsavorite Pickaxe",
-	inventory_image = "RealOres_pick_tsavorite.png",
+	inventory_image = "real_ores_pick_tsavorite.png",
 	tool_capabilities = {
 		max_drop_level=2,
 		groupcaps={
@@ -301,42 +301,42 @@ minetest.register_tool("RealOres:pick_tsavorite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_tsavorite',
+	output = 'real_ores:pick_tsavorite',
 	recipe = {
-		{'RealOres:tsavorite_ingot', 'RealOres:tsavorite_ingot', 'RealOres:tsavorite_ingot'},
+		{'real_ores:tsavorite_ingot', 'real_ores:tsavorite_ingot', 'real_ores:tsavorite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:neptunite_ore", {
+minetest.register_node ("real_ores:neptunite_ore", {
 	description = "Neptunite Ore",
-	tiles = {"RealOres_neptunite_ore.png"},
+	tiles = {"real_ores_neptunite_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2},
-	drop = 'RealOres:neptunite_lump'
+	drop = 'real_ores:neptunite_lump'
 })
 
 
-minetest.register_craftitem("RealOres:neptunite_lump", {
+minetest.register_craftitem("real_ores:neptunite_lump", {
 	description = "Neptunite Lump",
-	inventory_image = "RealOres_neptunite_lump.png",
+	inventory_image = "real_ores_neptunite_lump.png",
 })
 
 minetest.register_craft({
 	type = "cooking",
-	recipe = "RealOres:neptunite_lump",
-	output = "RealOres:neptunite_ingot",
+	recipe = "real_ores:neptunite_lump",
+	output = "real_ores:neptunite_ingot",
 })
 
-minetest.register_craftitem("RealOres:neptunite_ingot", {
+minetest.register_craftitem("real_ores:neptunite_ingot", {
 	description = "Neptunite Ingot",
-	inventory_image = "RealOres_neptunite_ingot.png",
+	inventory_image = "real_ores_neptunite_ingot.png",
 })
 
-minetest.register_tool("RealOres:pick_neptunite", {
+minetest.register_tool("real_ores:pick_neptunite", {
 	description = "Neptunite Pickaxe",
-	inventory_image = "RealOres_pick_neptunite.png",
+	inventory_image = "real_ores_pick_neptunite.png",
 	tool_capabilities = {
 		max_drop_level=1,
 		groupcaps={
@@ -346,45 +346,45 @@ minetest.register_tool("RealOres:pick_neptunite", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:pick_neptunite',
+	output = 'real_ores:pick_neptunite',
 	recipe = {
-		{'RealOres:neptunite_ingot', 'RealOres:neptunite_ingot', 'RealOres:neptunite_ingot'},
+		{'real_ores:neptunite_ingot', 'real_ores:neptunite_ingot', 'real_ores:neptunite_ingot'},
 		{'', 'default:stick', ''},
 		{'', 'default:stick', ''},
 	}
 })
 
-minetest.register_node ("RealOres:orpiment_ore", {
+minetest.register_node ("real_ores:orpiment_ore", {
 	description = "Orpiment Ore",
-	tiles = {"RealOres_orpiment_ore.png"},
+	tiles = {"real_ores_orpiment_ore.png"},
 	is_ground_content = true,
 	groups = {cracky=2, oddly_breakable_by_hand=1},
-	drop = 'RealOres:orpiment_lump'
+	drop = 'real_ores:orpiment_lump'
 })
 
 
-minetest.register_craftitem("RealOres:orpiment_lump", {
+minetest.register_craftitem("real_ores:orpiment_lump", {
 	description = "Orpiment Lump",
-	inventory_image = "RealOres_orpiment_lump.png",
+	inventory_image = "real_ores_orpiment_lump.png",
 })
 
 minetest.register_craft({
-	output = 'RealOres:orpiment_powder',
+	output = 'real_ores:orpiment_powder',
 	recipe = {
 		{'', '', ''},
-		{'', 'RealOres:orpiment_lump', ''},
+		{'', 'real_ores:orpiment_lump', ''},
 		{'', '', ''},
 	}
 })
 
-minetest.register_craftitem("RealOres:orpiment_powder", {
+minetest.register_craftitem("real_ores:orpiment_powder", {
 	description = "Orpiment Powder",
-	inventory_image = "RealOres_orpiment_powder.png",
+	inventory_image = "real_ores_orpiment_powder.png",
 })
 
-minetest.register_tool("RealOres:orpiment_coated_steel_sword", {
+minetest.register_tool("real_ores:orpiment_coated_steel_sword", {
 	description = "Orpiment Coated Steel Sword",
-	inventory_image = "RealOres_orpiment_sword.png",
+	inventory_image = "real_ores_orpiment_sword.png",
 	tool_capabilities = {
 		full_punch_interval = 1.0,
 		max_drop_level=1,
@@ -397,17 +397,17 @@ minetest.register_tool("RealOres:orpiment_coated_steel_sword", {
 })
 
 minetest.register_craft({
-	output = 'RealOres:orpiment_coated_steel_sword',
+	output = 'real_ores:orpiment_coated_steel_sword',
 	recipe = {
 		{'', '', ''},
-		{'', 'RealOres:orpiment_powder', ''},
+		{'', 'real_ores:orpiment_powder', ''},
 		{'', 'default:sword_steel', ''},
 	}
 })
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:columbite_ore",
+	ore            = "real_ores:columbite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 15*15*15,
 	clust_num_ores = 4,
@@ -418,7 +418,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:columbite_ore",
+	ore            = "real_ores:columbite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 18*18*18,
 	clust_num_ores = 3,
@@ -430,7 +430,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:cerussite_ore",
+	ore            = "real_ores:cerussite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 13*13*13,
 	clust_num_ores = 4,
@@ -441,7 +441,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:cerussite_ore",
+	ore            = "real_ores:cerussite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 14*14*14,
 	clust_num_ores = 5,
@@ -453,7 +453,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:zincite_ore",
+	ore            = "real_ores:zincite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 8*8*8,
 	clust_num_ores = 4,
@@ -464,7 +464,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:zincite_ore",
+	ore            = "real_ores:zincite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 10*10*10,
 	clust_num_ores = 5,
@@ -476,7 +476,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:rhodochrosite_ore",
+	ore            = "real_ores:rhodochrosite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 14*14*14,
 	clust_num_ores = 4,
@@ -487,7 +487,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:rhodochrosite_ore",
+	ore            = "real_ores:rhodochrosite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 15*15*15,
 	clust_num_ores = 5,
@@ -499,7 +499,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:vanadinite_ore",
+	ore            = "real_ores:vanadinite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 15*15*15,
 	clust_num_ores = 3,
@@ -510,7 +510,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:vanadinite_ore",
+	ore            = "real_ores:vanadinite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 16*16*16,
 	clust_num_ores = 5,
@@ -522,7 +522,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:amazonite_ore",
+	ore            = "real_ores:amazonite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 13*13*13,
 	clust_num_ores = 4,
@@ -533,7 +533,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:amazonite_ore",
+	ore            = "real_ores:amazonite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 14*14*14,
 	clust_num_ores = 5,
@@ -545,7 +545,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:neptunite_ore",
+	ore            = "real_ores:neptunite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 20*20*20,
 	clust_num_ores = 4,
@@ -556,7 +556,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:neptunite_ore",
+	ore            = "real_ores:neptunite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 25*25*25,
 	clust_num_ores = 5,
@@ -568,7 +568,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:orpiment_ore",
+	ore            = "real_ores:orpiment_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 8*8*8,
 	clust_num_ores = 4,
@@ -579,7 +579,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:orpiment_ore",
+	ore            = "real_ores:orpiment_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 10*10*10,
 	clust_num_ores = 5,
@@ -591,7 +591,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:tsavorite_ore",
+	ore            = "real_ores:tsavorite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 13*13*13,
 	clust_num_ores = 4,
@@ -602,7 +602,7 @@ minetest.register_ore({
 
 minetest.register_ore({
 	ore_type       = "scatter",
-	ore            = "RealOres:tsavorite_ore",
+	ore            = "real_ores:tsavorite_ore",
 	wherein        = "default:stone",
 	clust_scarcity = 14*14*14,
 	clust_num_ores = 5,
