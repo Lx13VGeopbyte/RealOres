@@ -414,32 +414,6 @@ minetest.register_node("RealOres:shockenite_ore", {
 	groups = {cracky=1},
 })
 
-minetest.register_node("RealOres:shockenite_torch", {
-	description = "Shockenite Torch",
-	drawtype = "torchlike",
-	tiles = {
-		{name="default_torch_on_floor_animated.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=3.0}},
-		{name="default_torch_on_ceiling_animated.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=3.0}},
-		{name="RealOres_shockenite_torch_animated.png", animation={type="vertical_frames", aspect_w=16, aspect_h=16, length=3.0}}
-	},
-	inventory_image = "default_torch_on_floor.png",
-	wield_image = "default_torch_on_floor.png",
-	paramtype = "light",
-	paramtype2 = "wallmounted",
-	sunlight_propagates = true,
-	walkable = false,
-	light_source = 15,
-	selection_box = {
-		type = "wallmounted",
-		wall_top = {-0.1, 0.5-0.6, -0.1, 0.1, 0.5, 0.1},
-		wall_bottom = {-0.1, -0.5, -0.1, 0.1, -0.5+0.6, 0.1},
-		wall_side = {-0.5, -0.3, -0.1, -0.5+0.3, 0.3, 0.1},
-	},
-	groups = {choppy=2,dig_immediate=3,flammable=1,attached_node=1},
-	legacy_wallmounted = true,
-})
-
-
 local function generate_ore(name, wherein, minp, maxp, seed, chunks_per_volume, chunk_size, ore_per_chunk, height_min, height_max)
 	if maxp.y < height_min or minp.y > height_max then
 		return
