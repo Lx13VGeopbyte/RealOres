@@ -405,15 +405,6 @@ minetest.register_craft({
 	}
 })
 
-minetest.register_node("RealOres:shockenite_ore", {
-	description = "The Mythical Shockenite Ore",
-	tiles = {"RealOres_shockenite_ore.png"},
-	paramtype = "light",
-	light_source = 2,
-	is_ground_content = true,
-	groups = {cracky=1},
-})
-
 local function generate_ore(name, wherein, minp, maxp, seed, chunks_per_volume, chunk_size, ore_per_chunk, height_min, height_max)
 	if maxp.y < height_min or minp.y > height_max then
 		return
